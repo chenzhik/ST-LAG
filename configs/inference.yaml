@@ -1,5 +1,5 @@
-base_model_path: /mnt/afs_intern_chenzhikai/SRCS/pretrain/huggingface/qianyurui/dreamshaper
-motion_module_path: /mnt/afs_intern_chenzhikai/SRCS/video-repaint/text2video/animatediff/AnimateDiff-sdxl/models/Motion_Module/mm_sdxl_v10_beta.ckpt
+base_model_path: SDXL
+motion_module_path: ./models/Motion_Module/mm_sdxl_v10_beta.ckpt
 
 seed: [24438]
 
