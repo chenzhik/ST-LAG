@@ -1,0 +1,19 @@
+base_model_path: PATH TO SDXL
+motion_module_path: ./models/Motion_Module/mm_sdxl_v10_beta.ckpt
+
+clip_path: laion/CLIP-ViT-L-14-laion2B-s32B-b82K
+vae_fp16_path: madebyollin/sdxl-vae-fp16-fix
+video_base_dir: ./sample/1k16f/
+
+
+seed: [24438]
+
+guidance_scale: 8.5
+steps: 50
+
+prompt:
+  - "A panda standing on a surfboard in the ocean in sunset. Realistic, Cinematic, high resolution"
+ 
+n_prompt:
+  - "blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, drawing, anime, mutated hands and fingers, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation"
+  
