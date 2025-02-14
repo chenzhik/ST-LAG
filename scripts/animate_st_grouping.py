@@ -13,7 +13,6 @@ from tqdm.auto import tqdm
 from transformers import CLIPTextModel, CLIPTokenizer, CLIPTextModelWithProjection, CLIPProcessor
 
 from animatediff.models.unet import UNet3DConditionModel
-# from animatediff.pipelines.pipeline_animation_demofusion3d import AnimationPipeline
 from animatediff.pipelines.pipeline_animation_st_grouping import AnimationPipeline
 from animatediff.utils.util import save_videos_grid, load_weights
 from animatediff.utils.prompt_reweighting import CLIPModel_2
